@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nseeka | Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="nseeka.css">
+ 
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Nseeka</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Nseeka - Web Developer</h1>
+                <p>Creating beautiful, functional, and user-friendly digital experiences that make an impact.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn">View My Work</a>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="/helo/pictures/gem.png" alt="Nseeka">
+                </div>
+                <div class="about-text">
+                    <h3>Web Developer</h3>
+                    <p>Hello! I'm Nseeka, a passionate web developer and graphic designer with over 5 years of professional experience. I specialize in creating visually appealing and highly functional websites and applications.</p>
+                    <p>My approach combines technical expertise with creative design to deliver solutions that not only look great but also provide exceptional user experiences.</p>
+                    <div class="skills">
+                        <span class="skill">HTML5</span>
+                        <span class="skill">CSS3</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">React</span>
+                        <span class="skill">Adobe Creative Suite</span>
+                        <span class="skill">Responsive Design</span>
+                        <span class="skill">WordPress</span>
+                    </div>
+                    <a href="#contact" class="btn" style="margin-top: 30px;">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="/helo/pictures/inab.png" alt="Web Project 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Online Cosmetic Store</h3>
+                        <p>Full-stack e-commerce solution with PHP</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic">
+                    <div class="portfolio-img">
+                        <img src="https://placehold.co/600x400/FFD700/333333/png?text=Brand+Design" alt="Brand Design">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Brand Identity</h3>
+                        <p>Complete brand identity design for a tech startup</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-img">
+                        <img src="https://placehold.co/600x400/FF7F00/FFFFFF/png?text=Mobile+App+UI" alt="Mobile App UI">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Fitness App UI</h3>
+                        <p>UI/UX design for a fitness tracking mobile application</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="https://placehold.co/600x400/FFD700/333333/png?text=Web+Project+2" alt="Web Project 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Travel Blog</h3>
+                        <p>Responsive travel blog with custom CMS</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="graphic">
+                    <div class="portfolio-img">
+                        <img src="https://placehold.co/600x400/FF7F00/FFFFFF/png?text=Print+Design" alt="Print Design">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Print Campaign</h3>
+                        <p>Print marketing materials for a restaurant chain</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui">
+                    <div class="portfolio-img">
+                        <img src="https://placehold.co/600x400/FFD700/333333/png?text=Dashboard+UI" alt="Dashboard UI">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Dashboard UI for a business analytics platform</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2021 - Present</span>
+                        <h3>Senior Web Developer</h3>
+                        <p>TechVision Solutions</p>
+                        <p>Leading front-end development for client projects, implementing responsive designs, and mentoring junior developers.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2019 - 2021</span>
+                        <h3>Web Designer & Developer</h3>
+                        <p>Creative Minds Agency</p>
+                        <p>Designed and developed websites for various clients, created UI/UX prototypes, and implemented responsive designs.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2017 - 2019</span>
+                        <h3>Graphic Designer</h3>
+                        <p>DesignStudio Inc.</p>
+                        <p>Created visual concepts for marketing materials, developed brand identities, and produced digital artwork.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="date">2015 - 2017</span>
+                        <h3>Junior Web Developer</h3>
+                        <p>WebCraft Studios</p>
+                        <p>Assisted in website development, maintained existing client sites, and implemented new features using HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Legacy's Responsive Web Design</h3>
+                    <p>freeCodeCamp</p>
+                    <p class="date">2025</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Bachelor's in Computer Science</h3>
+                    <p>Federal University Wukari</p>
+                    <p class="date">2015 - 2021</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Certificate in Web Design</h3>
+                    <p>Taraba Business School</p>
+                    <p class="date">2018</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <div class="cert-img">
+                        <img src="https://placehold.co/600x400/FF7F00/FFFFFF/png?text=AWS+Certified" alt="AWS Certification">
+                    </div>
+                    <div class="cert-info">
+                        <h3>AWS Certified Developer</h3>
+                        <p>Amazon Web Services</p>
+                        <p class="date">2022</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-img">
+                        <img src="https://placehold.co/600x400/FFD700/333333/png?text=Google+UX+Cert" alt="Google UX Certification">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Google UX Design Professional</h3>
+                        <p>Google Career Certificates</p>
+                        <p class="date">2021</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-img">
+                        <img src="https://placehold.co/600x400/FF7F00/FFFFFF/png?text=React+Cert" alt="React Certification">
+                    </div>
+                    <div class="cert-info">
+                        <h3>React Developer Certification</h3>
+                        <p>Meta</p>
+                        <p class="date">2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p>123 Design Street, Creative City, 10001</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p>hello@nseeka.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <p>+1 (123) 456-7890</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <p>www.nseeka.com</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="/images/image1.jpg" class="social-link"><i class="fab fa-behance"></i></a>
+            </div>
+            <p>&copy; 2023 Nseeka. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <div>
+ 
+</div>
+    <script src="nseeka.js"></script>
+</body>
+</html>
