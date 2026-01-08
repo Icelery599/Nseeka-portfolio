@@ -150,7 +150,7 @@
         .hero {
             padding-top: 150px;
             padding-bottom: 100px;
-            background: url(weebb.png);
+            background: url(weebb.png) no-repeat center center/cover;
             color: var(--white);
             text-align: center;
         }
