@@ -40,13 +40,36 @@
             });
         });
         
+        // EmailJS initialization
+        emailjs.init('k-jdKTnVNVP4LkEzP');
+        
         // Form Submission
         const contactForm = document.getElementById('contactForm');
         
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            contactForm.reset();
+            
+            const formData = {
+                to_email: 'nseekabit@gmail.com',
+                from_name: document.getElementById('name').value,
+                from_email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+            
+            emailjs.send('service_hn90yui', 'template_o76x8u4', {
+                to_email: formData.to_email,
+                from_name: formData.from_name,
+                from_email: formData.from_email,
+                subject: formData.subject,
+                message: formData.message
+            }).then(() => {
+                alert('Thank you for your message! I will get back to you soon.');
+                contactForm.reset();
+            }).catch((error) => {
+                alert('Error sending message. Please try again later.');
+                console.error('Email sending error:', error);
+            });
             
         });
         
